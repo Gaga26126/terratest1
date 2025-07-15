@@ -4,7 +4,9 @@ variable "SNOWFLAKE_ACCOUNT" {
   type = string
 }
 
-variable "SNOWFLAKE_SNOWSQL_ACCOUNT" {}
+variable "SNOWFLAKE_SNOWSQL_ACCOUNT" {
+  default = "DY13756"
+}
 
 variable "SNOWFLAKE_PASSWORD" {}
 variable "SNOWFLAKE_ROLE" {}
